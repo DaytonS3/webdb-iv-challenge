@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.6"
+  },
+  "name": "webdb-iv-challenge",
+  "description": "## Topics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon",
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaytonS3/webdb-iv-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaytonS3/webdb-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/DaytonS3/webdb-iv-challenge#readme"
+}
