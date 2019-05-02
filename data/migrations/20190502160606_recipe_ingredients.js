@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable("recipe_ingredients", tbl => {
     tbl.increments().unique();
-    tbl.string("name").notNullable();
+
     tbl
       .integer("recipe_id")
       .unsigned()
